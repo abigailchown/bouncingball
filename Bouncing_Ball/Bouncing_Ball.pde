@@ -11,7 +11,7 @@ void setup() {
 }
 void draw() {
   background(#92CFED);
-  fill(216, 7, 21);
+  fill(163, 32, 211);
   ellipse(x, y, ballSize, ballSize);
 
   y = y + ySpeed;
