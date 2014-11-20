@@ -1,7 +1,7 @@
 float x, y;
 float ballSize = 40;
 float xSpeed = 5, ySpeed = 5;
-float gravity = 0.1;
+float gravity = 1;
 float braking = 0.09;
 boolean movingUp = false;
 boolean movingLeft = false;
