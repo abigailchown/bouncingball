@@ -15,7 +15,7 @@ void draw() {
   ellipse(x, y, ballSize, ballSize);
 
   y = y + ySpeed;
-  x = x+ xSpeed;
+  x = x + xSpeed;
   ySpeed = ySpeed + gravity;
 
   if (y + ballSize/2 > height) { 
